@@ -1,0 +1,63 @@
+$red: #FF0000;
+$blue: #0099FF;
+$black:black;
+$white:		#FFFFFF;
+$yellow:yellow;
+$grey:#f8f9fa;
+$lightgrey:#CCCCCC;
+
+$font15:15px;
+$font14:14px;
+$font12:12px;
+.index{
+    background-color: $grey;
+}
+section{
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 40px;
+    
+    padding-top: 40px;
+}
+.gap10{
+    margin-top: 25px;
+}
+.gap20{
+    margin-top: 50px;
+}
+.nav_center{
+   margin: 0 auto;
+   width: 30%;
+}
+#header {
+    width: 100%;
+    background-color: $grey;
+    border-bottom: 0.02px solid grey;
+    .nav_header {
+        margin: 0 auto;
+        width: 80%;       
+    }
+}
+
+
+
+// 底部栏组件
+#footer{
+    width: 100%;
+    background-color: $black;
+    padding-top: 30px;
+    .footer{
+        color:$lightgrey;
+        width: 80%;
+        margin: 0 auto;
+        height: 200px;
+        font-size: $font14;
+        
+        h3{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        p{
+            font-size: $font12;
+        }
+    }
+}
